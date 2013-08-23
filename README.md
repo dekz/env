@@ -3,7 +3,7 @@ env
 
 Track ENV usage
 
-```
+```ruby
 require_relative './env.rb'
 Env.hijack!
 
