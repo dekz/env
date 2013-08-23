@@ -38,6 +38,10 @@ pp ENV.usages
  "RUBY"=>
   [{:lineno=>
      "/Users/dekz/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rake-10.0.4/lib/rake/file_utils.rb:9:in `<module:FileUtils>'",
-    :value=>nil}]}
+    :value=>nil}],
+ "ENV_TEST"=>
+  [{:lineno=>"test.rb:8:in `<main>'", :value=>nil},
+   {:lineno=>"test.rb:9:in `<main>'", :value=>"TEST"},
+   {:lineno=>"test.rb:10:in `<main>'", :value=>"TEST"}]}
 
 ```
