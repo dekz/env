@@ -3,5 +3,6 @@ require_relative './env.rb'
 Env.hijack!
 
 require 'rake'
+require 'pp'
 
-p ENV.usages
+pp ENV.usages
