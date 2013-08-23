@@ -13,7 +13,7 @@ require 'pp'
 pp ENV.usages
 
 ```
-```
+```ruby
 {"GEM_SKIP"=>
   [{:lineno=>
      "/Users/dekz/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/core_ext/kernel_gem.rb:33:in `gem'",
